@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_600">#0B6E5F</color>
+    <color name="primary_100">#DFF1ED</color>
+    <color name="primary_50">#F0F8F6</color>
+    <color name="accent_500">#F5B400</color>
+    <color name="income">#1B8A4B</color>
+    <color name="expense">#D13B3B</color>
+    <color name="background">#F4F7F6</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#14231F</color>
+    <color name="text_muted">#5A6B66</color>
+    <color name="border">#DDE5E2</color>
+</resources>

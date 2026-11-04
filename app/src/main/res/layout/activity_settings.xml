@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_back"
+                android:padding="10dp"
+                android:background="@drawable/bg_icon_btn"
+                android:contentDescription="@null"
+                app:tint="@color/text_primary" />
+
+            <TextView
+                android:text="Cài đặt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                style="@style/Text.H2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="16dp"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="H"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:textColor="@color/surface"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_avatar_primary"
+                    style="@style/Text.Title" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="14dp">
+
+                    <TextView
+                        android:text="Đoàn Hoàng Hiếu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Title" />
+
+                    <TextView
+                        android:text="hieu@email.com"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        style="@style/Text.Caption" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Quản lý"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Text.Label" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="13dp"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_wallet"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Quản lý ví"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <TextView
+                    android:text="3 ví"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    style="@style/Text.Caption" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chev"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@null"
+                    app:tint="@color/text_muted" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_tag"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Quản lý danh mục"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <TextView
+                    android:text="12 danh mục"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    style="@style/Text.Caption" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chev"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@null"
+                    app:tint="@color/text_muted" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Chung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Text.Label" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="13dp"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_coin"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Tiền tệ"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <TextView
+                    android:text="VND (đ)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    style="@style/Text.Caption" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chev"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@null"
+                    app:tint="@color/text_muted" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_globe"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Ngôn ngữ"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <TextView
+                    android:text="Tiếng Việt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    style="@style/Text.Caption" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chev"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@null"
+                    app:tint="@color/text_muted" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_bell"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Nhắc nhở &amp; cảnh báo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:thumbTint="@color/surface"
+                    android:trackTint="@color/primary_600" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Dữ liệu &amp; tài khoản"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Text.Label" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="13dp"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_cloud"
+                    android:padding="9dp"
+                    android:background="@drawable/bg_icon_36"
+                    android:contentDescription="@null"
+                    app:tint="@color/primary_600" />
+
+                <TextView
+                    android:text="Sao lưu &amp; đồng bộ"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+
+                <TextView
+                    android:text="Bật"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    style="@style/Text.Caption" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chev"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@null"
+                    app:tint="@color/text_muted" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_logout"
+                    android:padding="9dp"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    app:tint="@color/expense" />
+
+                <TextView
+                    android:text="Đăng xuất"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/expense"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    style="@style/Text.Body" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

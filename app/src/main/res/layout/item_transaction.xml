@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:background="@color/surface">
+
+    <FrameLayout
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_icon_44">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:id="@+id/imgCategory"
+            android:src="@drawable/ic_food"
+            app:tint="@color/primary_600"
+            android:contentDescription="@null" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:text="Ăn trưa cơm tấm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/tvTitle"
+            style="@style/Text.Body" />
+
+        <TextView
+            android:text="Ăn uống · 12:10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSubtitle"
+            android:layout_marginTop="2dp"
+            style="@style/Text.Caption" />
+    </LinearLayout>
+
+    <TextView
+        android:text="-45.000đ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/expense"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/tvAmount"
+        style="@style/Text.Body" />
+</LinearLayout>

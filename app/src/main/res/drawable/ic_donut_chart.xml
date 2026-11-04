@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="140dp"
+    android:viewportWidth="140"
+    android:viewportHeight="140">
+    <group android:pivotX="70" android:pivotY="70" android:rotation="-90">
+        <path
+            android:pathData="M125,70 A55,55 0 1,1 15,70 A55,55 0 1,1 125,70"
+            android:strokeColor="@color/primary_600"
+            android:strokeWidth="30"
+            android:trimPathStart="0"
+            android:trimPathEnd="0.38" />
+        <path
+            android:pathData="M125,70 A55,55 0 1,1 15,70 A55,55 0 1,1 125,70"
+            android:strokeColor="@color/accent_500"
+            android:strokeWidth="30"
+            android:trimPathStart="0.38"
+            android:trimPathEnd="0.6" />
+        <path
+            android:pathData="M125,70 A55,55 0 1,1 15,70 A55,55 0 1,1 125,70"
+            android:strokeColor="@color/expense"
+            android:strokeWidth="30"
+            android:trimPathStart="0.6"
+            android:trimPathEnd="0.78" />
+        <path
+            android:pathData="M125,70 A55,55 0 1,1 15,70 A55,55 0 1,1 125,70"
+            android:strokeColor="@color/text_muted"
+            android:strokeWidth="30"
+            android:trimPathStart="0.78"
+            android:trimPathEnd="0.92" />
+        <path
+            android:pathData="M125,70 A55,55 0 1,1 15,70 A55,55 0 1,1 125,70"
+            android:strokeColor="@color/border"
+            android:strokeWidth="30"
+            android:trimPathStart="0.92"
+            android:trimPathEnd="1.0" />
+    </group>
+</vector>
