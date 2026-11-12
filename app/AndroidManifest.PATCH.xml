@@ -1,0 +1,6 @@
+<!-- Thêm TRƯỚC thẻ <application> -->
+<uses-permission android:name="android.permission.INTERNET" />
+
+<!-- Trong <application>, MainActivity đổi tên theo package mới nếu bạn chuyển vào view/activity -->
+<activity android:name=".view.activity.AddTransactionActivity" android:exported="false"
+    android:windowSoftInputMode="adjustResize" />

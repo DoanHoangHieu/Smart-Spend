@@ -1,0 +1,21 @@
+// ===== app/build.gradle.kts : thêm plugin + dependencies =====
+plugins {
+    alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")          // <-- THÊM
+}
+
+dependencies {
+    // ... giữ nguyên các dòng cũ ...
+    implementation("androidx.recyclerview:recyclerview:1.4.0")        // <-- THÊM (danh sách giao dịch)
+
+    // Firebase: BoM quản lý version chung, KHÔNG ghi version cho từng thư viện bên dưới
+    implementation(platform("com.google.firebase:firebase-bom:34.0.0"))   // <-- THÊM (kiểm tra bản mới nhất)
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+}
+
+// ===== build.gradle.kts (cấp project) =====
+plugins {
+    alias(libs.plugins.android.application) apply false
+    id("com.google.gms.google-services") version "4.4.3" apply false     // <-- THÊM (kiểm tra bản mới nhất)
+}
